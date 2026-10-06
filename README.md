@@ -54,6 +54,8 @@ The cleaned transactions and the model's test predictions are loaded into MySQL.
 - ranking hours by risk, and rolling 3-hour fraud counts (window functions)
 - the model's confusion matrix and the fraud value caught vs missed, computed in SQL by joining predictions with transactions
 - alert precision by probability band, and a review queue of the highest-risk flagged transactions
+- ![SQL: fraud by amount band](images/sql_fraud_by_amount.png)
+![SQL: model confusion matrix](images/sql_model_confusion_matrix.png)
 
 ## Project structure
 ```
